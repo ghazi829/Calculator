@@ -1,0 +1,103 @@
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+        
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: linear-gradient(135deg, #4b6cb7, #182848);
+            padding: 20px;
+        }
+        
+        .calculator {
+            width: 300px;
+            background-color: #1a1a1a;
+            border-radius: 10px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+            overflow: hidden;
+        }
+        
+        .display {
+            background-color: #000;
+            color: white;
+            padding: 20px;
+            text-align: right;
+            height: 100px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+        }
+        
+        .previous-operation {
+            color: rgba(255, 255, 255, 0.7);
+            font-size: 1rem;
+            min-height: 1.2rem;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            margin-bottom: 5px;
+        }
+        
+        .current-value {
+            font-size: 2.2rem;
+            font-weight: 500;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        
+        .buttons {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 1px;
+            background-color: #333;
+        }
+        
+        button {
+            border: none;
+            outline: none;
+            height: 60px;
+            font-size: 1.5rem;
+            cursor: pointer;
+            transition: all 0.1s;
+        }
+        
+        button:active {
+            opacity: 0.8;
+            transform: scale(0.98);
+        }
+        
+        .gray-btn {
+            background-color: #d4d4d2;
+            color: #1a1a1a;
+        }
+        
+        .gray-btn:active {
+            background-color: #b8b8b6;
+        }
+        
+        .dark-btn {
+            background-color: #505050;
+            color: white;
+        }
+        
+        .dark-btn:active {
+            background-color: #3d3d3d;
+        }
+        
+        .orange-btn {
+            background-color: #ff9500;
+            color: white;
+        }
+        
+        .orange-btn:active {
+            background-color: #e08500;
+        }
+        
+        .zero {
+            grid-column: span 2;
+        }
