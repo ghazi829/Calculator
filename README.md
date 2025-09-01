@@ -36,8 +36,7 @@ calculator-app/
 ├── index.html          # Main HTML file
 ├── style.css           # Complete styling with modern design
 ├── script.js           # Calculator functionality
-├── assets/
-│   └── images/         # Screenshots and icons
+├── calculator-preview  # Screenshots and icons
 └── README.md           # Project documentation
 ```
 
