@@ -27,7 +27,7 @@ A sleek, responsive calculator application built with **HTML, CSS, and JavaScrip
 
 ## 🚀 Live Demo
 
-👉 [Click here to try the calculator](https://ghazi829.github.io/Calculator-App/)
+👉 [Click here to try the calculator](https://ghazi829.github.io/Calculator/)
 
 ## 📁 Project Structure
 
@@ -74,7 +74,7 @@ calculator-app/
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/ghazi829/Calculator-App.git
+   git clone https://github.com/ghazi829/Calculator.git
    ```
 
 2. **Navigate to the directory**:
